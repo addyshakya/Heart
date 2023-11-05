@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#first{
+    width: 100%;
+    height: 70%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img{
+    width: 30vw;
+    height: 30vw;
+    background: #000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img>#image1{
+   width: 100%;
+   height: 100%;
+    opacity: 1;
+}
+
+#image1>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#image2{
+    margin-top: 30px;
+    width: 68%;
+    height: 68%;
+    /* background: pink; */
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+ }
+ 
+ #image2>img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ #image3{
+    width: 100%;
+    height: 100%;
+    /* background: pink; */
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+ }
+ 
+ #image3>img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ #image4{
+    width: 100%;
+    height: 100%;
+    /* background: pink; */
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+ }
+ 
+ #image4>img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+#second{
+    width: 100%;
+    height: 10%;
+    /* background: gainsboro; */
+    bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
